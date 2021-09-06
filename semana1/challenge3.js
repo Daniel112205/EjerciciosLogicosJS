@@ -1,5 +1,5 @@
 const capitalizeLetters = (str) => {
-    //Implementación
+    return str.replace(/\b\w/g, l => l.toUpperCase());
 }
 
 module.exports = {
